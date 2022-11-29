@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.underline
+{
+    width: 10%;
+    border-bottom: 5px solid sandybrown;
+}
+.kural_label>label
+{
+    font-size: 1.2em;
+}
+#kural_input
+{
+    width: 60px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    color: coral;
+    margin: 5px 0;
+}
+#kural_input:hover
+{
+    border-color:skyblue ;
+    background-color: lightcyan;
+    border-radius: 1rem;
+}
+th{
+    text-transform: capitalize;
+}
+
+@media screen and (min-width:320px) and (max-width:430px) {
+    .container
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: rgba(196, 241, 182, 0.532);
+        min-width: 800px;
+    }
+   
+}
+#kural_text
+{
+    color: skyblue;
+}   
+#tbody
+{
+    min-width: 100%;
+}
